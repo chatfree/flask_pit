@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from py.urls import app
 from conf import conf
 
@@ -7,10 +8,6 @@ if __name__ == '__main__':
   debug= conf.getCfg("app","debug")
   host= conf.getCfg("app","ip")
   print(debug,host)
-
   app.jinja_env.auto_reload = debug
   app.run(port=8888,host=host,debug=debug)
 
-if __name__ == '__main__':
-  app.jinja_env.auto_reload = True
-  app.run(debug=True)
