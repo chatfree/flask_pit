@@ -1,0 +1,7 @@
+.*
+!.gitignore
+*.iml
+*.ipr
+*.iws
+*.pyc
+*/__pycache__/*

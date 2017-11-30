@@ -1,0 +1,9 @@
+.base{
+  text-align: center;
+  font-size: 48px;
+}
+.btn{
+  border: none;
+  font-size: 48px;
+  background-color: lightblue;
+}
