@@ -10,3 +10,7 @@ if __name__ == '__main__':
 
   app.jinja_env.auto_reload = debug
   app.run(port=8888,host=host,debug=debug)
+
+if __name__ == '__main__':
+  app.jinja_env.auto_reload = True
+  app.run(debug=True)
